@@ -16,8 +16,8 @@ root.render(
         {/*3.) App in Routes schachteln */}
       <Routes>
         <Route path="/" element={<App />}/>
-                <Route path="/nationalteam" element={<PlayerList/>}/>
-      <Routes>
+        <Route path="/nationalteam" element={<PlayerList/>}/>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
